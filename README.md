@@ -61,7 +61,7 @@ _El modelo que se encuentra en el repositorio obtuvo como metricas finales las s
 _Las herramientas que se utilizaron para poder construir esta API fueron:_
 
 * [Flask](https://flask-doc.readthedocs.io/en/latest/) - El framework Python usado
-* [TensorFlow](https://www.tensorflow.org/) - Librería
+* [Pytorch](https://pytorch.org//) - Librería
 * [OpenCV](https://opencv.org/) - Librería
 
 
