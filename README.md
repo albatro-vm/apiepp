@@ -52,9 +52,9 @@ _Por ejemplo:_
 
 _El modelo que se encuentra en el repositorio obtuvo como metricas finales las siguientes:_
 
-|  | Precisión | Perdida  | Recall | F1
+|  | Precisión | Recall  | F1 | Exac
 | :-----: | :-: | :-: | :-: | :-: |
-| Model | 0.0 | 0.0 |0.0 | 0.0 |
+| Model | 100% | 0.86 | 0.91 | 61.06% |
 
 ## Construido con 🛠️
 
