@@ -2,9 +2,11 @@
 
 _En este repositorio se encuentra el codigo fuente de la API de reconocimiendo de EPPs._
 
-_Para la construcción de la misma se utilizo una implementación de Keras de la detección de objetos RetinaNet basada en el paper  “Focal Loss for Dense Object Detection” de Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He y Piotr Dollár._
+_Para la construcción de la misma se utilizo una implementación de Pytorch de la detección de objetos RetinaNet basada en el paper  “Focal Loss for Dense Object Detection” de Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He y Piotr Dollár._
 
-_La implementación utilizada es una adaptación del repositorio fizyr/keras-retinanet la cual se configuro y entreno con imagenes de personas utilizando EPPs._
+_La implementación utilizada es una adaptación del repositorio https://github.com/yhenon/pytorch-retinanet la cual se configuro y entreno con imagenes de personas utilizando EPPs._
+
+_El modelo entrenado con la red RetiNet implementada en PyTorch tuvo una precisión del 72% en su entrenamiento.
 
 ##
 
@@ -56,11 +58,13 @@ _El modelo que se encuentra en el repositorio obtuvo como metricas finales las s
 | :-----: | :-: | :-: | :-: | :-: |
 | Model | 100% | 0.86 | 0.91 | 61.06% |
 
+_Aclaración: las métricas fueron obtenidas de pruebas realizadas a un set de datos que fue seleccionado manualmente. El actual cuadro refleja el promedio general de los valores de las métricas para cada EPP en particular.
+
 ## Construido con 🛠️
 
 _Las herramientas que se utilizaron para poder construir esta API fueron:_
 
-* [Flask](https://flask-doc.readthedocs.io/en/latest/) - El framework Python usado
+* [Flask](https://flask-doc.readthedocs.io/en/latest/) - El framework Python usado para la construcción de la API Rest.
 * [Pytorch](https://pytorch.org//) - Librería
 * [OpenCV](https://opencv.org/) - Librería
 
